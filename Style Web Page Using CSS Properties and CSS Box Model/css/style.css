@@ -1,0 +1,9 @@
+h4 {
+    text-decoration: underline;
+}
+
+#definition {
+    margin-left: 60px;
+    padding: auto;
+    font-style: italic;
+}

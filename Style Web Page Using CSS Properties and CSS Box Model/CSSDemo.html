@@ -1,0 +1,65 @@
+<!-- There are 3 ways to apply CSS to an HTML page:
+    1. Inline CSS
+    2. Internal CSS
+    3. External CSS
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>About CSS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- External CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Internal CSS -->
+    <style>
+        #para1 {
+            font-weight: 600;
+        }
+
+        #list1 {
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="color: white; text-align: center;background-color: black; padding: 15px;">
+        ALL ABOUT CSS
+    </h1>
+    <p id="para1" style="background-color: aqua; padding: 10px;">
+        There are 3 ways to apply CSS to an HTML page:
+    <ol id="list1">
+        <li>Inline CSS</li>
+        <li>Internal CSS</li>
+        <li>External CSS</li>
+    </ol>
+    </p>
+    <h4>
+        <ol id="list2">
+            <li>Inline CSS:</li>
+        </ol>
+    </h4>
+    <p id="definition">
+        Inline styles are place directly inside an HTML element in the code using the "style" attribute.
+    </p>
+    <h4>
+        <ol start="2" id="list2">
+            <li>Internal CSS:</li>
+        </ol>
+    </h4>
+    <p id="definition">
+        Internal styles are place inside the head section of a particular webpage via the "style" tag.
+    </p>
+    <h4>
+        <ol start="3" id="list2">
+            <li>External CSS:</li>
+        </ol>
+    </h4>
+    <p id="definition">
+        An External style sheet is a separate page that is then linked to the web page.
+    </p>
+</body>
+
+</html>

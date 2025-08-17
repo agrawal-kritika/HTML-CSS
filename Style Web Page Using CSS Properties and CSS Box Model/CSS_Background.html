@@ -1,0 +1,48 @@
+<!-- CSS Background property-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Background Example</title>
+    <style>
+        body {
+            background-color: lightblue;
+            /* light gray background for the page */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .background-box {
+            width: 400px;
+            height: 200px;
+            padding: 20px;
+            margin: 30px auto;
+            background-color: lightblue;
+            /* fallback background color */
+            background-image: url('https://www.w3schools.com/css/img_lights.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* covers the entire box */
+            background-position: center;
+            border: 2px solid #333;
+            color: white;
+            text-shadow: 1px 1px 2px black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to My Website</h1>
+    <div class="background-box">
+        <p>This box has a background image and color.</p>
+    </div>
+</body>
+
+</html>
