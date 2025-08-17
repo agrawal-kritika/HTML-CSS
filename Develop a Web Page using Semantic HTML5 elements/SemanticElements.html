@@ -1,0 +1,90 @@
+<!-- Demonstrating the use of Semantic elements with a little styling-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Semantic Elements</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        header,
+        footer,
+        nav,
+        main,
+        section,
+        article,
+        aside,
+        figure,
+        details {
+            border: 1px solid #ccc;
+            margin: 10px 0;
+            padding: 10px;
+        }
+
+        mark {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>MY AWESOME SEMANTICS PAGE</h1>
+        <nav>
+            <a href="#intro">Intro</a> |
+            <a href="#content">Content</a> |
+            <a href="#footer">Footer</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Introduction</h2>
+            <p>Welcome to my web page built with <mark>semantic HTML5</mark>!</p>
+        </section>
+
+        <section id="content">
+            <article>
+                <header>
+                    <h3>Understanding Semantic Tags</h3>
+                    <p>Posted on <time datetime="2025-06-30">June 30, 2025</time></p>
+                </header>
+
+                <p>A <dfn>semantic element</dfn> clearly describes its meaning
+                    to both the browser and the developer.
+                </p>
+
+                <figure>
+                    <img src="./Img/panda.jpeg" alt="Placeholder image">
+                    <figcaption>An example of a figure with a caption.</figcaption>
+                </figure>
+
+                <details>
+                    <summary>Read more about semantic tags</summary>
+                    <p>Semantic tags help improve accessibility, SEO, and code readability.</p>
+                </details>
+            </article>
+
+            <aside>
+                <h4>Did You Know?</h4>
+                <p>HTML5 introduced over a dozen new semantic tags like <code>&lt;main&gt;</code>,
+                    <code>&lt;section&gt;</code>, and <code>&lt;article&gt;</code>.
+                </p>
+            </aside>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p>Created by Kritika Agrawal, Web Dev Enthusiast &copy; <time datetime="2025">2025</time></p>
+    </footer>
+
+</body>
+
+</html>
